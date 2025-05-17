@@ -1,0 +1,54 @@
+header {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header-jumbotron {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.header-jumbotron img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+.header-jumbotron h3 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-jumbotron p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialMedia a {
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.socialMedia a:hover {
+  transform: scale(1.2);
+  color: #facc15; /* kuning emas */
+}
