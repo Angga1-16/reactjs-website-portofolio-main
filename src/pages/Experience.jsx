@@ -6,7 +6,7 @@ import { FaVuejs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 
-import Navbar from '../components/Navbar'
+
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 
@@ -15,7 +15,6 @@ import ScrollToTop from '../components/ScrollToTop'
 function Experience() {
     return (
         <>
-            <Navbar />
             <div className="wrapper">
                 <h1>Experience</h1>
                 <VerticalTimeline>

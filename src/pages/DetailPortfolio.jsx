@@ -1,7 +1,6 @@
 import { useParams, Navigate } from "react-router-dom"
 import '../styles/DetailPortfolio.css'
 import { portfolioList } from '../data/DataPortfolio'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
 
@@ -13,7 +12,6 @@ function DetailPortfolio() {
     }
     return (
         <>
-            <Navbar />
             <section id="detail-portfolio">
                 <div className="wrapper">
                     <h1>{data.title}</h1>

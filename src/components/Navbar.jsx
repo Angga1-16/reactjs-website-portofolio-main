@@ -20,7 +20,7 @@ function Navbar() {
         <nav>
             <div className="wrapper">
                 <div className="logo">
-                    <Link to="/">CUND1L</Link>
+                    <Link to="/" onClick={e => { e.stopPropagation(); setStatusTampil(''); }}>CUND1L</Link>
                 </div>
                 <button onClick={tampilMenu}>
                     {
@@ -32,6 +32,7 @@ function Navbar() {
                         <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
                         <li><HashLink to="/#about">About</HashLink></li>
                         <li><Link to="/experience">Experience</Link></li>
+                        <li><Link to="/tugas">Tugas</Link></li> {/* Tambahkan baris ini */}
                     </ul>
                 </div>
             </div>

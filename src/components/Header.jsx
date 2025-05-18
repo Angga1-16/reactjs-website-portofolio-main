@@ -18,7 +18,7 @@ function Header() {
                         title="Instagram"
                     >
                         <FaInstagram aria-hidden="true" />
-                    </a>
+                 </a>
                     <a 
                         href="https://www.tiktok.com/@anggawinata8?_t=ZS-8wQjayL17do&_r=1" 
                         target="_blank" 
