@@ -17,9 +17,8 @@ function About() {
                 <p>Saya percaya bahwa gabungan antara nilai-nilai keislaman dan kemajuan teknologi dapat menjadi solusi bagi berbagai tantangan zaman. Saat ini, saya terus mengembangkan diri melalui pembelajaran mandiri dan keterlibatan dalam proyek-proyek IT untuk memperkuat keterampilan teknis dan kontribusi sosial saya.</p>
                 <h4>Programming Language & Tools</h4>
                 <div className="skills">
-                    <FaPhp /><FaHtml5 /><SiJavascript /><FaReact /><MdOutlineCss />
-                    <FaGolang /><FaBootstrap /><FaRust /><RiTailwindCssFill />
-                    <FaLaravel /><DiCodeigniter /><FaGit />
+                    <FaHtml5 /><SiJavascript /><MdOutlineCss />
+                
 
                 </div>
             </div>
