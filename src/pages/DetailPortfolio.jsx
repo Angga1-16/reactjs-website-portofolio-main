@@ -17,8 +17,18 @@ function DetailPortfolio() {
             <section id="detail-portfolio">
                 <div className="wrapper">
                     <h1>{data.title}</h1>
-                    <img src={data.image} />
-                    <p className="skill"><b>Skills:</b> {data.skill}</p>
+                    <img src={data.image} alt={data.title} />
+                    <h4>MA ASSIROJI</h4>
+                    <p>Saya pernah berkontribusi dalam pengembangan website MA Assiroji sebagai Designer UI/UX, dengan fokus pada desain antarmuka dan kenyamanan pengguna. Proyek ini menjadi salah satu pengalaman penting saya dalam dunia pengembangan web berbasis kebutuhan lembaga pendidikan.</p>
+                    
+                    <a 
+                        href="https://www.maassiroji.sch.id/" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="visit-button"
+                    >
+                        Kunjungi Website
+                    </a>
                 </div>
             </section>
             <Footer />
