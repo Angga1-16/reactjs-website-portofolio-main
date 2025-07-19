@@ -76,7 +76,7 @@ Silakan isi deskripsi Tugas 2 di sini.
   },
   {
     id: '3',
-    judul: 'Tugas 3',
+    judul: 'Sistem Pakar',
     deskripsi: `
 Silakan isi deskripsi Tugas 3 di sini.
 `

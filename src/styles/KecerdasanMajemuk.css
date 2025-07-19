@@ -1,0 +1,81 @@
+/* src/styles/KecerdasanMajemuk.css */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.question-card {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-left: 6px solid #007bff;
+  border-radius: 8px;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.submit-btn,
+.back-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.back-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.back-btn:hover {
+  background-color: #d32f2f;
+}

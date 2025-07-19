@@ -5,6 +5,7 @@ import PageNotFound from './pages/PageNotFound'
 import Experience from './pages/Experience'
 import Tugas from './components/Tugas';
 import DetailTugas from './components/DetailTugas';
+import KecerdasanMajemuk from './components/KecerdasanMajemuk'; // import komponen baru
 import Navbar from './components/Navbar'; // pastikan sudah di-import
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/page-not-found' element={<PageNotFound />} />
         <Route path='/experience' element={<Experience />} />
         <Route path="/tugas" element={<Tugas />} />
+        <Route path="/sistem-pakar" element={<KecerdasanMajemuk />} />
         <Route path="/detail-tugas/:id" element={<DetailTugas />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>

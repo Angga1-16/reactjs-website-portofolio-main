@@ -9,7 +9,9 @@ function Tugas() {
       <ul className="tugas-list">
         {listTugas.map((tugas) => (
           <li key={tugas.id}>
-            <Link to={`/detail-tugas/${tugas.id}`}>{tugas.judul}</Link>
+            <Link to={tugas.id === '3' ? '/sistem-pakar' : `/detail-tugas/${tugas.id}`}>
+  {tugas.judul}
+</Link>
           </li>
         ))}
       </ul>
